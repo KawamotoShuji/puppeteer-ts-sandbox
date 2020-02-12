@@ -1,0 +1,25 @@
+{
+  "name": "test-pptr-ts",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "package.json"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^8.0.27",
+    "commander": "^2.11.0",
+    "events": "^1.1.1",
+    "puppeteer": "^0.10.2"
+  },
+  "devDependencies": {
+    "puppeteer-tsd": "0.0.2"
+  }
+}
