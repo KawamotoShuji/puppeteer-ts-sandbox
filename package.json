@@ -17,7 +17,7 @@
     "@types/node": "^8.0.27",
     "commander": "^2.11.0",
     "events": "^1.1.1",
-    "puppeteer": "^0.10.2"
+    "puppeteer": "^1.13.0"
   },
   "devDependencies": {
     "puppeteer-tsd": "0.0.2"
